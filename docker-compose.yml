@@ -15,7 +15,7 @@ services:
       - target: 22
         published: 30022
         protocol: tcp
-        mode: host  # Mejor rendimiento para SSH
+        mode: host
     networks:
       - catnet
     env_file: 
